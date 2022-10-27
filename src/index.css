@@ -1,13 +1,104 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  border: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+  background-color: whitesmoke;
+}
+
+.divNavbar {
+  background-color: black;
+  display: flex;
+}
+
+.divIcono {
+  width: 50%;
+}
+
+.divNavigation {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 40%;
+  font-size: 9px;
+  padding-right: 2em;
+}
+
+#icono {
+  width: 45px;
+  height: 45px;
+  margin-left: 1.5em;
+  padding: 0.5em;
+}
+
+.divHome {
+  margin-top: 2em;
+  font-size: small;
+  text-align: center;
+}
+
+#imgLogo {
+  width: 40%;
+  height: 200px;
+  margin: 2em;
+}
+
+.active {
+  color: red;
+  text-decoration: none;
+  margin: 1em;
+  font-weight: 700;
+}
+
+.noActive {
+  color: white;
+  text-decoration: none;
+  margin: 1em;
+}
+
+.divPokemones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.divSelect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.divSelect select {
+  width: 150px;
+  font-size: 0.7em;
+  text-align: center;
+  border: solid 1px grey;
+  border-radius: 10px;
+}
+
+.divSelect button {
+  margin-top: 1.5em;
+  background-color: black;
+  border-radius: 8px;
+  width: 110px;
+  height: 20px;
+  font-size: 0.5em;
+  color: white;
+}
+
+.divCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2em;
+}
+
+#cardPoke {
+  display: flex;
 }
